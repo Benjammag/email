@@ -3,7 +3,6 @@ import UserList from '../components/userList';
 import UserForm from '../components/userForm';
 import type { User } from '../types';
 
-
 const Home: React.FC = () => {
     const [currentUser, setCurrentUser] = useState<User | null>(null);
 
